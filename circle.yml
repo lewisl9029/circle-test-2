@@ -1,5 +1,7 @@
 test:
   override:
+    # - echo "Hello world12345678!"
+    # - echo "Hello world!1234567" && exit 1
     - mkdir -p $CIRCLE_TEST_REPORTS/lein-test
     - cat <<'EOF' > $CIRCLE_TEST_REPORTS/lein-test/circle.analytics.test-core.xml
 <testsuite name="circle.analytics.test-core" errors="0" tests="2" failures="0" elapsed="0.43000000000000005">
