@@ -2,4 +2,4 @@ test:
   override:
     # - echo "Hello world12345678!"
     # - echo "Hello world!1234567" && exit 1
-    - ./test.sh
+    - source test.sh
