@@ -1,5 +1,5 @@
 test:
   override:
     # - echo "Hello world123456!"
-    - echo "Hello world!1" && exit 1
+    - echo "Hello world!12" && exit 1
     # - source test.sh
